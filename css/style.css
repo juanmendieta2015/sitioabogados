@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+}
+
+#header{
+    background-color: rgb(90, 116, 173);
+    width: 100%;
+    height: 80px;
+}
+
+#menu-container {
+    background-color: rgb(173, 193, 233);
+    width: 100%;
+}
+
+
+#menu{
+    float:right;
+    /* display: block; */
+    /* position: fixed; */
+    /* position: absolute; */
+    /* position: relative; */
+    /* float: left; */
+    /* top: 50px; */
+    background-color:#2C4066;
+    /* width: 85%; */
+    /* margin-left: 2%; */
+    /* margin-right: 2%; */
+    height: 60px;    
+    
+    
+}
+
+
+
+#slider{
+    background-color: #604D53;
+    width: 100%;
+    height: 350px;
+}
+
+#bottom{
+    background-color: #5677B7;
+    width: 100%;
+    /* height: 300px; */
+}
+
+.bottom{
+    background-color: #FFDBDA;
+    /* border: 10px; */
+    text-align: justify;
+    color: grey;
+    /* height: 200px; */
+    /* border */
+    /* margin: 1px; */
+    /* padding: 5px; */
+    /* border-color:tan; */
+    /* margin-top: 10px; */
+}
+
+
+.bottom-a{
+    background-color: gold;
+}
+
+.bottom-b{
+    background-color: fuchsia;
+}
+
+.bottom-c{
+    background-color: forestgreen;
+}
+
+.bottom-d{
+    background-color: deepskyblue;
+}
+
+/* #slider>img{
+    /* width: 1000px; */
+    /* max-width: 70%; */
+    /* height: auto; */
+    /* max-height: 100%; */
+    /* height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;*/
+    /*opacity: 0.7;
+    
+    /* max-width: 100%; */
+    /* max-height: 100% */
+
+    /*object-fit: cover;
+    width: 100%;
+    height: 350px; 
+    /* color:rgba(255,255,255,.5);    
+
+} */
+
+#slider {
+    background-image: url("../img/image01.jpg");
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    color: white;
+    font-size: 25px;
+}
+
+#slider-text{
+    margin-top: 120px;
+    margin-left: 400px;
+    /* margin-right: auto; */
+    background-color: tomato;
+    position: absolute;
+}
+ 
+/* Sobreescribe el comportamiento por defecto de Boostrap
+para e componente "barra de navegacion" */
+
+/* #menu.nav-pills>li.active>a,
+#menu.nav-pills>li.active>a:hover,
+#menu.nav-pills>li.active>a:focus,
+#menu.nav-pills>li>a:hover {
+    background: none;
+    /* background: red; */
+}
+
+ 
+#menu.nav-pills>li.active>a,
+#menu.nav-pills>li.active>a:hover,
+#menu.nav-pills>li.active>a:focus {
+    color: #a3d900;
+}
+
+#menu.nav .open>a,
+#menu.nav .open>a:hover,
+#menu.nav .open>a:focus {
+    background: none;
+}  */
